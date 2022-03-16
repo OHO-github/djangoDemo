@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="b1430b94-167f-4977-88be-2b4feadc112a" name="Django" url="http://192.168.153.130">
-        <fileTransfer rootFolder="/home/zhanshi/Documents" accessType="SFTP" host="192.168.153.130" port="22" sshConfigId="c0907d28-5025-4a1e-80e2-1100efcf59da" sshConfig="zhanshi@192.168.153.130:22">
+      <webServer id="0cec1a80-6f48-49ae-8636-37941e61105a" name="YpA002">
+        <fileTransfer rootFolder="/home/zhanshi" accessType="SFTP" host="192.168.2.139" port="22" sshConfigId="f9d977b3-f933-4603-b0e3-21dd71715cc2" sshConfig="zhanshi@192.168.2.139:22 password">
           <advancedOptions>
-            <advancedOptions controlEncoding="utf8" dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions controlEncoding="UTF8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>

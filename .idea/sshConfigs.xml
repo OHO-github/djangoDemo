@@ -2,9 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="192.168.153.130" id="c0907d28-5025-4a1e-80e2-1100efcf59da" port="22" customName="zhanshi@192.168.153.130:22" nameFormat="CUSTOM" username="zhanshi">
-        <option name="customName" value="zhanshi@192.168.153.130:22" />
-      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.2.139" id="f9d977b3-f933-4603-b0e3-21dd71715cc2" port="22" nameFormat="DESCRIPTIVE" username="zhanshi" />
     </configs>
   </component>
 </project>
