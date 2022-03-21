@@ -20,9 +20,6 @@ from djangoDemo import views
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    # 分布式路由
-    # path('cnipa/', include('cnipa.urls')),
-
     # 主路由
     path('', views.index_view),
     path('index/', views.index_view),
@@ -30,4 +27,7 @@ urlpatterns = [
     path('calculator/', views.add_sub_mul_and_div),
     path('mvc/', views.mvc_studay),
     path('newCalculator/', views.new_calculator, 'new_cal'),
+
+    # 分布式路由
+    path('music/', include('music.urls')),
 ]
