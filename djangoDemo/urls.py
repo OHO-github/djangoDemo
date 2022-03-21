@@ -29,5 +29,5 @@ urlpatterns = [
     path('django/', views.show_django_image_view),
     path('calculator/', views.add_sub_mul_and_div),
     path('mvc/', views.mvc_studay),
-    path('newCalculator/', views.new_calculator),
+    path('newCalculator/', views.new_calculator, 'new_cal'),
 ]
