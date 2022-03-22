@@ -30,4 +30,6 @@ urlpatterns = [
 
     # 分布式路由
     path('music/', include('music.urls')),
+
+    path('bookstore/', include('bookstore.urls')),
 ]

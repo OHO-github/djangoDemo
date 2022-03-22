@@ -1,5 +1,5 @@
 from django.urls import path, include
-from music import views
+from bookstore import views
 
 urlpatterns = [
     path('', views.index_view),
